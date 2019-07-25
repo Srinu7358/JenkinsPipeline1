@@ -12,5 +12,12 @@ stage('archival'){
 //archiving artifacts
 archive 'target/*.jar'
 }
-
+stage('archival'){
+//archiving artifacts
+archive 'target/*.jar'
+}
+stage('archival'){
+//archiving artifacts
+archive 'target/*.jar'
+}
 }

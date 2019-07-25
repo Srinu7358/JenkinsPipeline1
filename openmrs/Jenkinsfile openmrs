@@ -12,8 +12,5 @@ sh  'mvn package'
 //archiving artifacts
 //archive 'target/*.jar'
 //}
-stage('test results'){
-//test reports
-junit 'target/surefire-reports/*.xml'
-}
+
 }
