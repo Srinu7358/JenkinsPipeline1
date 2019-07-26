@@ -16,7 +16,7 @@ stage('archival'){
 //archiving artifacts
 archive 'target/*.jar'
 }
-stage('archival'){
+stage('show test results'){
 //archiving artifacts
 junit 'target/surefire-reports/*.xml'
 }
