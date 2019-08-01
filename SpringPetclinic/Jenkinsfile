@@ -2,7 +2,7 @@ node{
 
 stage('SCM'){
 //git clone
-git 'https://github.com/Srinu7358/JenkinsPipeline1.git'
+git 'https://github.com/GitPracticeRepo/spring-petclinic.git'
 }
 stage('build the package'){
 //mvn package
